@@ -1,0 +1,51 @@
+/* Coolvetica 폰트 설정 */
+@font-face {
+  font-family: 'Coolvetica Rg';
+  src: url('fonts/coolvetica_RG.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Coolvetica Rg Cond';
+  src: url('fonts/coolvetica_Rg_Cond.otf') format('opentypetype');
+}
+
+/* 전체 페이지 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Coolvetica Rg', 'Coolvetica Rg Cond', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 상단바 스타일 */
+header {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* 이미지 스타일 */
+main {
+  margin: 20px 20px 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: calc(100% - 40px); /* 좌우 여백 20px */
+  height: auto;
+  border-radius: 10px;
+}
