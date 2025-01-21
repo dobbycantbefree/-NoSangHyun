@@ -16,6 +16,6 @@ const images = [
   // 이미지 표시
   document.addEventListener('DOMContentLoaded', () => {
     const randomImage = getRandomImage();
-    document.getElementById('randomImage').src = randomImage;
+    document.getElementById('random-image').src = randomImage;
   });
   
