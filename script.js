@@ -1,12 +1,12 @@
 // 이미지 배열
 const images = [
-    'images/image1.jpeg',
-    'images/image2.gif',
-    'images/image3.gif',
-    'images/image4.jpg',
-    'images/image5.jpg',
-    'images/image6.jpeg',
-    'images/image7.jpg'
+    '/images/image1.jpeg',
+    '/images/image2.gif',
+    '/images/image3.gif',
+    '/images/image4.jpg',
+    '/images/image5.jpg',
+    '/images/image6.jpeg',
+    '/images/image7.jpg'
   ];
   
   // 랜덤 이미지 선택
