@@ -9,11 +9,9 @@ const images = [
     'images/image7.jpg'
   ];
   
-  // 랜덤으로 이미지를 선택하는 함수
-  function getRandomImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    return images[randomIndex];
-  }
+  // 랜덤 이미지 선택
+  const randomIndex = Math.floor(Math.random() * images.length);
+  document.getElementById('random-image').src = images[randomIndex];
   
   // 이미지 표시
   document.addEventListener('DOMContentLoaded', () => {

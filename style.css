@@ -1,0 +1,37 @@
+/* 폰트 정의 */
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('fonts/Coolvetica Rg.otf') format('opentype');
+}
+
+/* 전체 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Coolvetica', sans-serif;
+}
+
+/* 상단바 스타일 */
+.navbar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+/* 이미지 컨테이너 스타일 */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: calc(100% - 40px); /* 좌우 여백 각각 20px */
+  height: auto;
+  border-radius: 10px; /* 이미지 모서리를 살짝 둥글게 */
+}
